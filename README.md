@@ -2,6 +2,7 @@
 The project entitled "Faculty-review Analytics System" provides the statistical analysis of Faculty performance based on student reviews using Natural Language Processing.
 
 # Faculty-review Analytics System
+This project provides a sentimental analysis of faculty review using NLP.
 
 ## Technical aspect
 - Python 3.9.1
