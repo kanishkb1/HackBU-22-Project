@@ -10,8 +10,13 @@ This project provides a sentimental analysis of faculty review using NLP.
 - Front-End: HTML5, CSS, Jinja2 3.0.3
 - NLP Libraries: Textblob 0.17.1
 
-## Workflow of the project
-
+## About Sentiment Analysis
+- Sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations. 
+- The extreme range of the sentimental analysis is in the range of -1 to 1.
+- Specificastions
+     - Negative: -1
+     - Positive: +1
+     - Neutral:  0
 
 ## Authors
 - Kanishk Barhanpurkar 
