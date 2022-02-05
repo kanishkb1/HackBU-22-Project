@@ -14,11 +14,11 @@ The project entitled "Faculty-review Analytics System" provides the statistical 
 
 ## Authors
 - Kanishk Barhanpurkar 
-     - Github: https://github.com/kanishkb1
+     - Github:   https://github.com/kanishkb1
      - Linkedin: https://www.linkedin.com/in/kanishk-barhanpurkar/
-     - Email: kbarhan1@binghamton.edu
+     - Email:    kbarhan1@binghamton.edu
 - Nikita Mandlik
-     - Github: https://github.com/NikitaMandlik123
+     - Github:   https://github.com/NikitaMandlik123
      - Linkedin: https://www.linkedin.com/in/nikita-mandlik/ 
-     - Email: nmandli1@binghamton.edu    
+     - Email:    nmandli1@binghamton.edu    
 
