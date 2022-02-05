@@ -11,3 +11,12 @@ The project entitled "Faculty-review Analytics System" provides the statistical 
 
 ## Workflow of the project
 
+
+## Authors
+- Kanishk Barhanpurkar 
+     - Github: https://github.com/kanishkb1
+     - Linkedin: https://www.linkedin.com/in/kanishk-barhanpurkar/
+- Nikita Mandlik
+     - Github: https://github.com/NikitaMandlik123
+     - Linkedin: https://www.linkedin.com/in/nikita-mandlik/     
+
