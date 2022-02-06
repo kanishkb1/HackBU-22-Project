@@ -35,6 +35,7 @@ def analyse():
                 len_of_words = len(nouns)
                 rand_words = random.sample(nouns,len(nouns))
                 final_word = list()
+                summary = list()
                 for item in rand_words:
                     word = Word(item).pluralize()
                     final_word.append(word)
