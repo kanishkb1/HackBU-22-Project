@@ -18,11 +18,14 @@ def my_form_post():
     score = ((sid.polarity_scores(str(text))))['compound']
 
     if(score > 0):
-        label = 'This sentence is positive'
-    elif(score == 0):
+        label=score
+
+    elif(score == 0):   
         label = 'This sentence is neutral'
+        print(score)
     else:
         label = 'This sentence is negative'
+        print(score)
 
     return(render_template('index.html', variable=label))
 
