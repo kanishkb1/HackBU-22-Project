@@ -19,13 +19,14 @@ def my_form_post():
     classification = ((sid.polarity_scores(str(text))))['compound']
 
     if(score > 0):
-        label= 'The comment is positive and the score is {}'.format(score)
+        label= 'The inputted comment is positive and the score is {}'.format(score)
 
     elif(score == 0):   
-        label = score
+        label = 'The comment is neutral and the score is {}'.format(score)
         
     else:
-        label = score
+        label = 'The comment is negative and the score is {}'.format(score)
+
         
         
 
