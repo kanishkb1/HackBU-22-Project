@@ -1,6 +1,6 @@
 from flask import Flask, render_template,request,url_for
 from flask_bootstrap import Bootstrap 
-
+import nltk
 
 # NLP Packages
 from textblob import TextBlob,Word 
