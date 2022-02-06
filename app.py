@@ -12,7 +12,7 @@ Bootstrap(app)
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/analyse',methods=['POST'])
@@ -21,12 +21,10 @@ def analyse():
     if request.method == 'POST':
         rawtext = request.form['rawtext']
 		#NLP Stuff
-        
         blob = TextBlob(rawtext)
         received_text2 = blob
         blob_sentiment,blob_subjectivity = blob.sentiment.polarity ,blob.sentiment.subjectivity
         number_of_tokens = len(list(blob.words))
-
 		# Extracting Main Points
         nouns = list()
         for word, tag in blob.tags:
@@ -35,7 +33,6 @@ def analyse():
                 len_of_words = len(nouns)
                 rand_words = random.sample(nouns,len(nouns))
                 final_word = list()
-                summary = list()
                 for item in rand_words:
                     word = Word(item).pluralize()
                     final_word.append(word)
