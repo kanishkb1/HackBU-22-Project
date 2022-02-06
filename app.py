@@ -27,9 +27,6 @@ def my_form_post():
     else:
         label = 'The comment is negative and the score is {}'.format(score)
 
-        
-        
-
     return(render_template('index.html', variable=label))
 
 if __name__ == "__main__":
